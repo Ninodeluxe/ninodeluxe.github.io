@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="cover" lang="en">
 
 <head>
 
@@ -20,12 +20,21 @@
 
 	<!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<style>
+		.cover {
+			background: url(images/cover.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/skeleton.css">
 	<link rel="stylesheet" href="css/nino.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	
-	
+
+
 
 	<!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -33,11 +42,11 @@
 
 </head>
 
-<body class="cover">
+<body>
 
 	<!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="home"><a href="index.html"><span></span></a></div>
+	<div class="home"><a href="index.html"><span></span></a></div>
 	<div class="container" style="display:none;">
 		<div class="row">
 			<div class="two-thidrs column" style="margin-top: 25%">
@@ -50,7 +59,7 @@
 
 	<!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/nino.js"></script>
+	<script src="js/nino.js"></script>
 </body>
 
 </html>

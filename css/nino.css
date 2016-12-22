@@ -1,4 +1,4 @@
-.cover {
+.cover body {
 	color: #fff;
 }
 h1,
@@ -16,13 +16,6 @@ h3 {
 	font-size: 2rem;
 }
 
-.cover {
-	background: url(../images/cover.jpg) #000 no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 .text {
 	width: 90%;
 	float: right;
