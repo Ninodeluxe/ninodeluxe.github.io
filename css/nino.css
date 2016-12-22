@@ -1,0 +1,50 @@
+.cover body {
+	color: #fff;
+}
+h1,
+h3 {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 2.5rem;
+	text-transform: none;
+	clear: both;
+}
+.slogan {
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+}
+
+.cover {
+	background: url(../images/cover.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.text {
+	width: 90%;
+	float: right
+}
+.s-.row{
+	
+}
+.home{
+	margin-top: 1%;
+}
+.home span{
+	display: inline-block;
+	background-color: #FFD533;
+	width: 40px;
+	height:20px;
+	margin-right: 5px;
+}
+.home a, .home a:hover{
+	display: inline-block;
+	height:20px;
+	margin:0;
+	padding:0;
+	color: #000;
+	text-decoration: none;
+}
