@@ -1,46 +1,69 @@
 .cover body {
-	color: #fff;
+    color: #fff;
 }
+
 h1,
 h3 {
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
+
 h3 {
-	font-size: 2.5rem;
-	text-transform: none;
-	clear: both;
+    font-size: 2.5rem;
+    text-transform: none;
+    clear: both;
 }
-.slogan {
-	font-family: 'Playfair Display', serif;
-	font-size: 2rem;
+
+.slogan,
+.fullSection {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
 }
 
 .text {
-	width: 90%;
-	float: right;
+    width: 90%;
+    float: right;
 }
-.s-.row{
-	
+
+.s-.row {}
+
+.home {
+    margin: 10px;
 }
-.home{
-	margin: 10px;
+
+.home span {
+    display: inline-block;
+    background-color: #FFD533;
+    width: 60px;
+    height: 20px;
+    margin-right: 5px;
 }
-.home span{
-	display: inline-block;
-	background-color: #FFD533;
-	width: 60px;
-	height:20px;
-	margin-right: 5px;
+
+.cover .home span {
+    background-color: #73C6B6;
 }
-.cover .home span{
-	background-color: #73C6B6;
+
+.home a,
+.home a:hover {
+    display: inline-block;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
 }
-.home a, .home a:hover{
-	display: inline-block;
-	height:20px;
-	margin:0;
-	padding:0;
-	color: #000;
-	text-decoration: none;
+
+.fullSection {
+    background: linear-gradient(45deg, #FFD533, #73C6B6);
+    min-height: 100px;
+    width: 100% !important;
+   
+    font-size: 1.6rem;
+    padding: 30px 0 30px 0;
+    margin-bottom: 50px;
+}
+.quoter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
 }

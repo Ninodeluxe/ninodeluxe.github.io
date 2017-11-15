@@ -21,19 +21,31 @@
 	<!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<style>
-		.cover {
-			background: linear-gradient(
+       
+        .cover {
+            background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ), url(images/cover2mob.jpeg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+       
+         @media(min-width: 40em){
+            .cover{
+                background: linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
-            /*rgba(117,189,209,0.6),
-            rgba(250, 128, 114,0.6)*/
-            ),
-            url(images/cover2.jpg) no-repeat center center fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
+            ), url(images/cover2.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            
+        }
 	</style>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/skeleton.css">
@@ -52,13 +64,13 @@
 
 	<!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<div class="home"><a href="index.html"><span></span></a></div>
+	<div class="home"><a href="index.html" title="Hem"><span></span></a></div>
 	<div class="container" style="display:none;">
 		<div class="row">
 			<div class="two-thidrs column" style="margin-top: 22%">
 				<h1>Nino Mengarelli.</h1>
-				<p class="slogan">Digital projektledare</p>
-				<a class="button button-primary" href="about.html">Läs mer om mig</a>
+				<p class="slogan">Teknisk projektledare</p>
+				<a class="button button-primary" href="about.html">Läs mer om mig!</a>
 			</div>
 		</div>
 	</div>
