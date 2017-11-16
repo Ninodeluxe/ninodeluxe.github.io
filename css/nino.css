@@ -89,6 +89,11 @@ h3 {
     color: #000;
     text-decoration: none;
 }
+.name {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
 
 .fullSection {
     background: linear-gradient(45deg, #FFD533, #73C6B6);
